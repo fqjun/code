@@ -114,4 +114,5 @@ void on_trackbar(int, void*) {
 	inRange(hsv_img, Scalar(g_h_min, g_s_min, g_v_min), Scalar(g_h_max, g_s_max, g_v_max), mask);
 	imshow("mask", mask);
 }
+//test of git
 #endif
