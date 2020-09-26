@@ -5,9 +5,11 @@
 !.vscode/extensions.json
 !.vscode/c_cpp_properties.json
 *.code-workspace
+*.so
 
 # Local History for Visual Studio Code
 .history/
 
 #过滤bin文件夹
 /bin/
+
