@@ -18,7 +18,7 @@
 				"-g",
 				"${workspaceFolder}/main.cpp",
 				"-o",
-				"${workspaceFolder}/run.o",//输出的文件名称以及路径
+				"${workspaceFolder}/bin/run.o",//输出的文件名称以及路径
 				"/usr/local/lib/libopencv_*",
 				// "${workspaceFolder}/lib/./libMVSDK.so",
 

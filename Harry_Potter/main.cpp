@@ -25,7 +25,7 @@ Mat mask;
 
 int main() {
 	
-	VideoCapture cap(3);
+	VideoCapture cap(0);
 	if (!cap.isOpened()) {
 		cout << "camera cna't open" << endl;
 		return -1;
