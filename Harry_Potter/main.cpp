@@ -11,6 +11,8 @@
 using namespace std;
 using namespace cv;
 
+#define SET_COLOR
+
 #ifdef SET_COLOR
 
 void on_trackbar(int, void*);
@@ -55,6 +57,7 @@ int main() {
 		createTrackbar("min_v", "src", &g_v_min, 255, nullptr);
 		inRange(hsv_img, Scalar(g_h_min, g_s_min, g_v_min), Scalar(g_h_max, g_s_max, g_v_max), mask);//yellow 67,126,164    208,144,205  \  14,198,102     29,255,231
 		
+		imshow("src",src_img);
 
 		imshow("mask", mask);
 		// on_trackbar(0, 0);
